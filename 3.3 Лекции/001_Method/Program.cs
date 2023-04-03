@@ -68,7 +68,7 @@ string res = Method4(10, "ntrc");
 
 
 //
-string Method4(int count, string text)
+string Method(int count, string text)
 {
         string result = String.Empty;
     for( int i = 0; i < count; i++)
@@ -78,8 +78,8 @@ string Method4(int count, string text)
     return result;
 }
 
-string res = Method4(10, "ntrc");
-Console.WriteLine(res);
+//string res = Method4(10, "ntrc");
+//Console.WriteLine(res);
 
 
 
